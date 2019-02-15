@@ -1,1 +1,12 @@
+一、QT填加注释文本
+打开 Qt Creator，菜单选择：工具 -> 选项 -> 文本编辑器 -> 片段。点击“添加”按钮，编辑自定义的“触发”。
 
+例如，触发：“header”，触发种类：“custom”（也可以填写为其它内容）。然后，填写注释的内容（也可以是其它形式的代码段）：
+
+/** 
+* @projectName   %{CurrentProject:Name} 
+* @brief         摘要 
+* @author        ZLH
+* @date          %{CurrentDate:yyyy-MM-dd} 
+*/
+点击保存即可，然后在代码编辑器里面输入header 回车即可添加注释-加以修改
